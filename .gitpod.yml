@@ -1,0 +1,4 @@
+tasks:
+  - init: ./scripts/feeds update -a && ./scripts/feeds install -a
+image:
+  file: .gitpod.Dockerfile
